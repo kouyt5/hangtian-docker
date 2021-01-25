@@ -13,7 +13,7 @@ RUN apt-get update --fix-missing && apt-get install openssh-server -y \
     && pip install -r requirements.txt \
     && rm requirements.txt
 
-RUN pip install nemo-toolkit==0.10.0
+RUN pip install nemo-toolkit[all]==0.10.0
 #RUN git clone https://github.com/NVIDIA/apex \
 #    && cd apex && pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./ \
 #    && rm -r apex
