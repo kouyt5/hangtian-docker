@@ -1,0 +1,10 @@
+pypinyin==0.37.0
+tqdm==4.36.1
+librosa==0.7.2
+msgpack==1.0.0
+#pyltp
+pika==1.1.0
+# tensorflow==1.2.0
+tensorflow==1.15.0
+jieba==0.37
+numba==0.48.0
