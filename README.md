@@ -1,2 +1,2 @@
 # hangtian-docker
-用语语音识别模型NeMo部署的docker封装
+语音识别模型NeMo(v0.10)部署的docker环境封装，用于dockerhub的联合协作
