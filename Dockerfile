@@ -25,6 +25,3 @@ RUN git clone https://hub.fastgit.org/NVIDIA/NeMo.git --branch v0.11.1\
 RUN pip install https://github.com/kpu/kenlm/archive/master.zip
 EXPOSE 22
 
-# 后台执行ssh服务
-ENTRYPOINT /etc/init.d/ssh start && /bin/bash
-
