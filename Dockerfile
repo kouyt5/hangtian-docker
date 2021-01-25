@@ -15,7 +15,7 @@ RUN pip install nemo-toolkit[all]==0.10.0
 # RUN git clone https://github.com/NVIDIA/NeMo.git --branch v0.10.0 \ # github is slowly...
 RUN git clone https://hub.fastgit.org/NVIDIA/NeMo.git --branch v0.11.1\
     && cd NeMo/scripts \
-    && apt-get update && apt-get install swig -y \
+    && apt-get update && apt-get install swig wget -y \
     && apt-get install pkg-config libflac-dev libogg-dev libvorbis-dev libboost-dev -y\
     && apt-get install libsndfile1-dev python-setuptools libboost-all-dev python-dev -y\
     && apt-get install cmake -y\
